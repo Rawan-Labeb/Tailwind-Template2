@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2 - Tailwind</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./css/tailwind.css">
+</head>
+<body class="font-LibreFranklin">
+    <header>
+        <div class="flex flex-col items-center justify-center">
+            <img src="imgs/logo.svg" alt="" class="mt-16 mb-10">
+            <h2 class="font-regular text-3xl text-Gray mb-3 ">We are launching <span class="font-extrabold text-black">soon!</span></h2>
+            <p class="font-regular text-lg mb-4 ">Subscribe and get notified</p>
+        </div>
+        <div class=" Mobile:flex flex-col  Desktop:flex-row items-center justify-center">
+            <input type="email" name="" id=""  required placeholder="Your email address... " class="peer mt-5 border-2 border-paleBlue rounded-3xl p-3 w-96  Mobile:mb-4 ">
+            
+            <button class=" Desktop:w-48 border-2 drop-shadow-2xl border-Blue bg-Blue hover:bg-opacity-70 rounded-3xl p-2  ml-3 text-white font-bold 
+            Mobile:w-96">Notify Me</button>
+        
+        </div>
+        <p class="mt-2 invisible peer-invalid:visible text-LightRed text-sm">
+            Please provide a valid email address.
+          </p>
+    </header>
+
+    <main class="flex flex-col  justify-center items-center">
+        <img src="imgs/illustration-dashboard (1).png" class="Desktop:w-2/5 h-80 mt-14 Mobile:w-96 mb-20" alt="">
+    </main>
+
+    <footer class="flex flex-col items-center justify-center text-2xl text-Blue">
+       <div>
+        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f pr-8 "> </i></a>
+        <a href="https://twitter.com"><i class="fa-brands fa-twitter pr-8"></i></a>
+        <a href=" https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+       </div>        
+        <div class="mb-10 Desktop:mt-5 Mobile:mt-10">
+            <p class="text-Gray font-regular text-sm">© Copyright Ping. All rights reserved. </p>
+        </div>
+       
+    </footer>
+</body>
+</html>
